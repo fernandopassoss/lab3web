@@ -6,7 +6,7 @@ import {
    debounceTime, distinctUntilChanged, switchMap
  } from 'rxjs/operators';
 
-import { Hero } from 'src/app/heroes/hero';
+import { Hero } from '../hero';
 import { HeroService } from '../hero.service';
 
 @Component({
